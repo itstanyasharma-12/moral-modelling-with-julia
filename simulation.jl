@@ -47,7 +47,7 @@ function simulate!(g::SimpleGraph, agents::Vector{Agent}; rounds::Int=30, seed::
             agents[i] = Agent(a.id, a.w, new_alpha, a.beta, a.lambda, neighbor_rep[i])
         end
 
-        # Sample actions for this round
+
         for i in 1:n
             probs = choice_probs(agents[i])
             # sample according to probabilities
