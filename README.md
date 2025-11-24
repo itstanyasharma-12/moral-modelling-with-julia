@@ -1,4 +1,4 @@
-# Moral Dilemma Simulation — Agent-Based Behavioral Modeling in Julia
+# Moral Dilemma Simulation : Agent-Based Behavioral Modeling in Julia
 
 This project simulates how moral decisions evolve in a social network using **agent-based modeling**, **utility-based decision rules**, and **emotional contagion** (simple version).
 
